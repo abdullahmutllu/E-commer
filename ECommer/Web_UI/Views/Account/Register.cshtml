@@ -1,0 +1,87 @@
+﻿@model AppUserRegisterDTO
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+<!-- slider Area Start-->
+<div class="slider-area ">
+    <!-- Mobile Menu -->
+    <div class="single-slider slider-height2 d-flex align-items-center" data-background="assets/img/hero/category.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap text-center">
+                        <h2>Kayıt Ekranı</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- slider Area End-->
+<!--================login_part Area =================-->
+<section class="login_part section_padding ">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="login_part_text text-center">
+                    <div class="login_part_text_iner">
+                        <h2>New to our Shop?</h2>
+                        <p>
+                            There are advances being made in science and technology
+                            everyday, and a good example of this is the
+                        </p>
+                        <a asp-controller="Login" asp-action="Index">Giriş Yapmak İçin Tıkalyınız</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="login_part_form">
+                    <div class="login_part_form_iner">
+                        <h3>
+                            Kayıt Ol
+                        </h3>
+                        <form method="post" asp-action="Register" asp-controller="Account">
+                            <div class="group-input">
+                                <label asp-for="UserName"></label>
+                                <input asp-for="@Model.UserName">
+                                <span class="text-danger" asp-validation-for="@Model.UserName"></span>
+                            </div>
+
+                            <div class="group-input">
+                                <label asp-for="Email"></label>
+                                <input asp-for="@Model.Email">
+                                <span class="text-danger" asp-validation-for="@Model.Email"></span>
+                            </div>
+                            <div class="group-input">
+                                <label asp-for="Phone"></label>
+                                <input asp-for="@Model.Phone">
+                                <span class="text-danger" asp-validation-for="@Model.Phone"></span>
+                            </div>
+                            <div class="group-input">
+                                <label asp-for="Password"></label>
+                                <input asp-for="@Model.Password">
+                                <span class="text-danger" asp-validation-for="@Model.Password"></span>
+                            </div>
+
+                            <div class="group-input">
+                                <label asp-for="ConfirmPassword"></label>
+                                <input asp-for="@Model.ConfirmPassword">
+                                <span class="text-danger" asp-validation-for="@Model.ConfirmPassword"></span>
+                            </div>
+                            <div class="col-md-12 form-group">
+
+                                <button type="submit" value="submit" class="btn_3">
+                                    Kayıt yap
+                                </button>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

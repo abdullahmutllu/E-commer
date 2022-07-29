@@ -1,0 +1,12 @@
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\bin\Debug\net5.0\CORE.deps.json
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\bin\Debug\net5.0\CORE.dll
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\bin\Debug\net5.0\ref\CORE.dll
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\bin\Debug\net5.0\CORE.pdb
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\obj\Debug\net5.0\CORE.csproj.AssemblyReference.cache
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\obj\Debug\net5.0\CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\obj\Debug\net5.0\CORE.AssemblyInfoInputs.cache
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\obj\Debug\net5.0\CORE.AssemblyInfo.cs
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\obj\Debug\net5.0\CORE.csproj.CoreCompileInputs.cache
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\obj\Debug\net5.0\CORE.dll
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\obj\Debug\net5.0\ref\CORE.dll
+C:\Users\abdullah\Desktop\MyBigProject\ECommer\CORE\obj\Debug\net5.0\CORE.pdb

@@ -1,0 +1,71 @@
+﻿@model AppUserloginDto
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+<!-- slider Area Start-->
+<div class="slider-area ">
+    <!-- Mobile Menu -->
+    <div class="single-slider slider-height2 d-flex align-items-center" data-background="assets/img/hero/category.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap text-center">
+                        <h2>Giriş Ekranı</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- slider Area End-->
+<!--================login_part Area =================-->
+<section class="login_part section_padding ">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="login_part_text text-center">
+                    <div class="login_part_text_iner">
+                        <h2>New to our Shop?</h2>
+                        <p>
+                            There are advances being made in science and technology
+                            everyday, and a good example of this is the
+                        </p>
+                        <a asp-action="Register" asp-controller="Account" >Hesap Oluştur</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="login_part_form">
+                    <div class="login_part_form_iner">
+                        <h3>
+                            Giriş Ekranına Hoşgeldiniz
+                        </h3>
+                        <form method="post" asp-controller="Account" asp-action="Login">
+                            <div class="col-md-12 form-group p_star">
+                                <label asp-for="@Model.UserName"></label>
+                                <input asp-for="@Model.UserName">
+                            </div>
+                            <div class="col-md-12 form-group p_star">
+                                <label asp-for="@Model.Password"></label>
+                                <input asp-for="@Model.Password">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <div class="creat_account d-flex align-items-center">
+                                    <input type="checkbox" id="f-option" name="selector">
+                                    <label for="f-option">Remember me</label>
+                                </div>
+                                <button type="submit" value="submit" class="btn_3">
+                                    Giriş Yapp
+                                </button>
+                               <a asp-controller="Account" asp-action="PasswordReset" class="lost_pass">Şifremi unuttum</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================login_part end =================-->
